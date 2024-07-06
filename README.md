@@ -25,13 +25,13 @@ chmod +x run.sh
 Example:
 
 ```bash
-./run.sh ~/Downloads/HPV-18_UFS_BR-01.fas
+./run.sh ~/Downloads/sample.fas
 ```
 
 To use a specific Puma version, set the `PUMA_VERSION` environment variable, for example:
 
 ```bash
-PUMA_VERSION=1.2.2 ./run.sh ~/Downloads/HPV-18_UFS_BR-01.fas
+PUMA_VERSION=1.2.2 ./run.sh ~/Downloads/sample.fas
 ```
 
 NOTE: [Input file format](https://github.com/KVD-lab/puma#formatting-input-fasta-file-1)
