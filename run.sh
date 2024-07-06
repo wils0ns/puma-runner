@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 inputFile=${1}
 pumaVersion=${PUMA_VERSION:-1.2.2}
@@ -14,3 +15,5 @@ docker run --rm \
         -i /puma-data/input.fas \
         -o /puma-data/puma-results \
         -d /app/puma/data_dir/
+
+echo -e "\033[0;32mThe results can be found here: ${runnerDataDir}/puma-results.\033[0m"
