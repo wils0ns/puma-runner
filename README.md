@@ -19,10 +19,16 @@ chmod +x run.sh
 ## Usage
 
 ```bash
-PUMA_VERSION=<PUMA-VERSION> ./run.sh <INPUT_FILEPATH>
+./run.sh <INPUT_FILEPATH>
 ```
 
 Example:
+
+```bash
+./run.sh ~/Downloads/HPV-18_UFS_BR-01.fas
+```
+
+To use a specific Puma version, set `PUMA_VERSION`, for example:
 
 ```bash
 PUMA_VERSION=1.2.2 ./run.sh ~/Downloads/HPV-18_UFS_BR-01.fas
