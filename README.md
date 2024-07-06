@@ -16,15 +16,21 @@ cd puma-runner
 chmod +x run.sh
 ```
 
-## Usage Example
+## Usage
+
+```bash
+PUMA_VERSION=<PUMA-VERSION> ./run.sh <INPUT_FILEPATH>
+```
+
+Example:
 
 ```bash
 PUMA_VERSION=1.2.2 ./run.sh ~/Downloads/HPV-18_UFS_BR-01.fas
 ```
 
-Sample file format:
+NOTE: [Input file format](https://github.com/KVD-lab/puma#formatting-input-fasta-file-1)
 
-```text
->SHORT_NAME|FULL_NAME
-DATA_SEQUENCE
-```
+## Resources
+
+* [kvdlab/puma container image](https://hub.docker.com/r/kvdlab/puma)
+* [KVD-lab/puma repository](https://github.com/KVD-lab/puma)
