@@ -28,7 +28,7 @@ Example:
 ./run.sh ~/Downloads/HPV-18_UFS_BR-01.fas
 ```
 
-To use a specific Puma version, set `PUMA_VERSION`, for example:
+To use a specific Puma version, set the `PUMA_VERSION` environment variable, for example:
 
 ```bash
 PUMA_VERSION=1.2.2 ./run.sh ~/Downloads/HPV-18_UFS_BR-01.fas
