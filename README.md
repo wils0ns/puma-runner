@@ -11,7 +11,7 @@ Puma Runner stream-lines execution of Puma (Papillomavirus genome annotation too
 ## Setup
 
 ```bash
-git clone git@github.com:wils0ns/puma-runner.git
+git clone https://github.com/wils0ns/puma-runner.git
 cd puma-runner
 chmod +x run.sh
 ```
