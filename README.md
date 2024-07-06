@@ -6,6 +6,7 @@ Puma Runner stream-lines execution of Puma (Papillomavirus genome annotation too
 
 * [Git](https://git-scm.com/downloads)
 * [Docker](https://docs.docker.com/get-docker/)
+* Bash-compatible environment (Linux, MacOS, Windows WSL, etc)
 
 ## Setup
 
